@@ -1,0 +1,29 @@
+# base image
+FROM node:latest
+
+# set working directory
+RUN mkdir /usr/src/app
+WORKDIR /usr/src/app
+
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
+COPY package*.json ./
+
+RUN npm install
+RUN npm install redis
+RUN npm install express-redis-cache
+RUN npm install express-handlebars
+RUN npm install method-override
+RUN npm install mongoose
+RUN npm install cors
+RUN npm install body-parser
+# If you are building your code for production
+# RUN npm install --only=production
+
+# Bundle app source
+COPY . .
+
+EXPOSE 4000
+
+CMD [ "npm", "run", "server" ]

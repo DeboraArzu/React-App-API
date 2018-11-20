@@ -1,0 +1,22 @@
+ul {
+    padding:0;
+    list-style:none;
+    width: 30%;
+    margin:auto;
+  }
+  
+  .list td{
+    font-size:1.2rem;
+    line-height: 1.5rem;
+    border-bottom: 2px dotted #777;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    position: static;
+  }
+
+  .Table{
+    background-color: black;
+  }
+
+  
