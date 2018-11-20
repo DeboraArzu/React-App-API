@@ -2,7 +2,13 @@
 # React-App-API
 Proyecto Final
 
-A lo largo de este curso se trabajo una `Full stack app`.
+El propósito de Programación Web era que al finalizar el curso se tuviera una pagina web Full Stack alojada en la nube.
+# Contrucción de la pagina
+- [x] FrontEnd en Angular (cambio a React)
+- [x] BackEnd con NodeJs, MongoDB
+- [x] FullStack
+- [x] Docker
+- [x] Docker in Azure y MongoDB en AWS
 
 ## FrontEnd
 Al comienzo de este proyecto se realizo el `CRUD` en Angular, posteriormente se realizó el cambio a React debido a que este es un lenguaje que mantiene su tendencia de popularidad a diferencial de Angular.
