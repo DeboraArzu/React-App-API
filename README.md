@@ -84,8 +84,3 @@ Se creo una base de datos de MongoDb en Mlab y esta esta alojada en AWS.
 En azure se creo una VM con una imgen de Docker en Ubuntu. Luego de creada se realizo un `git clone` del repo que contenia el codigo final del proyecto y se realizó el `docker-compose up` para crear los contenedores.
 
 **Notas importantes: fue necesario cambiar el Proxy del package.json del FrontEnd a la dirección pública de la VM y para ejecutar el docker compose up es necesario estar dentro del directorio que contiene el archivo dockercompose.yaml**
-
-**FrontEnd**
-http://13.68.132.145:3000/home/
-**BackEnd**
-http://13.68.132.145:4000/home/products
